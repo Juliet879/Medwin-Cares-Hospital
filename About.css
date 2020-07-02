@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#main {
+    text-align: center;
+    color: black;
+    background-image: url("./About.images/haaaat.jpg");
+    font-family: 'Merriweather', serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-size: cover;
+    height: 500px;
+} 
+.all {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    float: inline-start;
+    height: 500px;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #5BC0DE;
+}
+p {
+    text-align: center;
+    font-size: medium;
+    float: none;
+}
+#hospital {
+    box-shadow: 3px 3px black;
+    box-sizing: border-box;
+    color: 51, 51, 51;
+    display: block;
+    font-size: 16px;
+    font-stretch: 100%;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    text-align: center;
+    width: 23%;
+}
+#location {
+    box-shadow: 3px 3px black;
+    box-sizing: border-box;
+    color: 51, 51, 51;
+    display: block;
+    font-size: 16px;
+    font-stretch: 100%;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    text-align: center;
+    width: 23%;
+    overflow: hidden;
+}
+#staff {
+    box-shadow: 3px 3px black;
+    box-sizing: border-box;
+    color: 51, 51, 51;
+    display: block;
+    font-size: 16px;
+    font-stretch: 100;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    text-align: center;
+    width: 23%;
+    
+}
+#result {
+    box-shadow: 3px 3p black;
+    box-sizing: border-box;
+    color: 51, 51, 51;
+    display: block;
+    font-size: 16px;
+    font-stretch: 100%;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    text-align: center;
+    width: 23%;
+}
+.all > div > img {
+     width: 100%;
+    
+}
+#main > h1 {
+    position: relative;
+    top: 80%;
+    color: #5BC0DE;
+    font-weight: 800;
+}
+
