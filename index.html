@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
@@ -16,17 +16,92 @@
             <li><a href="#about">About</a></li>
             <li><a href="#activities">Services</a></li>
             <li><a href="#appointment">Book an appointment</a></li>
-            <li><a href="#contacts">contacts</a></li>
+            <li><a href="contact">Contact</a></li>
         </ul>
     </nav>
-    <div id=icons>
-        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
-        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
-        <a href="https://ke.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-        <p>&copy; 2020 copyright: <a href="https://www.instagram.com/" target="_blank">Medwin Cares Hospital</a></p>
+
+    <br>
+    <div class="form">
+        <div id="form">
+            <h1>MEDICAL APPOINTMENT FORM</h1>
+            <h3>MAKE AN APPOINTMENT</h3>
+            <form id="forms">
+                <div id="right">
+
+                    <label for="pname">Patient name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="dname">Phone Number:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="pname">Email:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="dname">Symptoms:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                </div>
+
+                <div id="left">
+                    <label for="pname">Select Date:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="dname">Department:</label><br>
+                    <select id="cars" name="cars">
+                        <option value="volvo"></option>
+                        <option value="volvo">Cardiology</option>
+                        <option value="saab">Ophthalmology</option>
+                        <option value="fiat">Neurology</option>
+                        <option value="audi">Psychology</option>
+                    </select>
+                    <br>
+                    <label for="pname">Gender:</label><br>
+                    <select>
+                        <option value="volvo"></option>
+                        <option value="volvo">Male</option>
+                        <option value="saab">Female</option>
+                    </select>
+                    <br>
+                    <label for="dname">Time:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <br>
+                </div>
+        </div>
+       
+        <div class="container">
+
+            <ul>
+                Best Time To Call You
+                <li>Morning</li>
+                <li>Afternoon</li>
+                <li>Evening</li>
+            </ul>
+            <ul>
+                I Would Like To(Choose One)
+
+                <li> A New Patient Appointment</li>
+                <li>A Routine Checkup</li>
+                <li>A Comprehensive Health Exam</li>
+
+            </ul>
+        </div>
+
+        <div id="center">
+            <input type="appointment" value="Make an appointment"><br>
+        </div>
+        <p>2020.Medical Appointment Form.All Right Reserved|Design by
+            moringa
+        </p>
+        </form>
     </div>
+    <br><br>
+
+
+    <footer>
+        <div id=icons>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+            <a href="https://ke.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+            <p>&copy; 2020 copyright: <a href="https://www.instagram.com/" target="_blank">Medwin Cares Hospital</a></p>
+        </div>
+    </footer>
 </body>
 
 </html>
