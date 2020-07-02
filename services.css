@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Oswald&display=swap');
-   
+   nav{
+       position: relative;
+       /* top: 40px;   */
+     }
    nav>ul{
     padding-right: 30px;
-    background-color: cyan;
+    background-color: #5BC0DE;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -23,6 +26,7 @@ nav>ul>li>a{
 
 
 #topic{
+    
     background-image: url(./images/services.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -30,12 +34,14 @@ nav>ul>li>a{
     height: 400px;
     width: 100%;
     align-items: center;
-   
+    position: relative;
+    padding-bottom: 0;
+    margin-top: 0;
 }
 #topic>h1{
            font-size: 72px;
            text-align: center;
-           color: black;
+           color:#5BC0DE;
            position: relative;
            top: 21%;
            font-family: 'Merriweather', serif; 
@@ -63,7 +69,7 @@ nav>ul>li>a{
             padding-bottom: 10px;
             text-align: center;
             border-radius: 1%;
-            box-shadow: 1px 1px 10px black; 
+            box-shadow: 1px 1px 5px black; 
 }
 #services>div>div>img{ width: 250px;
                   height: 50%;                 
@@ -72,7 +78,7 @@ h2{
     font-size: 24px;
     font-family: 'Merriweather', serif;
     font-family: 'Oswald', sans-serif;
- 
+    color: #5BC0DE;;
 }
 #services>div>div:hover{ box-shadow: 0px 0px 20px black; }
 
@@ -81,8 +87,11 @@ h2{
     color: black;
     padding: 20px;
     text-align: center;
+
 }
 
 #icons{
-    background-color: cyan;
-    justify
+    background-color: #5BC0DE;
+    padding: 10px;
+    text-align: center;
+}
