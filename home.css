@@ -1,39 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
-nav {
-  /* max-width: 960px; */
-  margin: 0px auto;
-  padding: 10px 0;
-  margin-right: 0%;
-  background-color: #5bc0de;
+nav>ul{
+  padding-right: 30px;
+  background-color:#5BC0DE;
+  height:80px;
+  display: flex;
+  justify-content: center;
 }
-
-nav > ul {
-  text-align: right;
+nav>ul>li{
+  display: flex;
+  justify-content: center;        
 }
-
-nav > ul > li {
-  display: inline-block;
-}
-
-nav > ul > li > a {
-  padding: 14px;
-  margin-right: 0;
+nav>ul>li>a{
   text-transform: uppercase;
-  text-decoration: none;
-  display: block;
-  background-color: none;
-  border-radius: 15px;
-  color: rgba(248, 245, 245, 0.733);
-  font-size: 1.2rem;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}nav>ul{
+  padding-right: 30px;
+  background-color:#5BC0DE;
+  height:80px;
+  display: flex;
+  justify-content: center;
 }
-
-nav > ul > li > a:hover {
-  box-shadow: 0 0 10px rgba(252, 250, 250, 0.1),
-    inset 0 0 1px rgba(255, 255, 255, 0.6);
-  /* background: rgb(0, 0, 0);
-    color: whitesmoke; */
+nav>ul>li{
+  display: flex;
+  justify-content: center;        
+}
+nav>ul>li>a{
+  text-transform: uppercase;
+  color: black;
+  padding: 20px;
+  text-align: center;
 }
 
 .img1,
@@ -76,4 +75,7 @@ h5 {
 .h3-reponsive {
   font-family: "Merriweather", serif;
   
+}
+body{
+  overflow-x: hidden;
 }

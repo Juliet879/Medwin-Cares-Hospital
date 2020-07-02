@@ -90,8 +90,12 @@ h5{
     img{
         width: 100%;
     }
-    /* .logo{
+     /* .logo{
       width: 150px;
       height: auto;
       float: right;
-    } */
+    }  */
+    body{
+      overflow-x: hidden;
+    }
+  

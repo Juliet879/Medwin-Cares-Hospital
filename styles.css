@@ -48,4 +48,7 @@ nav>ul>li>a{
 h1,h3,p{
      text-align: center;
 }
-
+body{
+     overflow-x: hidden;
+   }
+   

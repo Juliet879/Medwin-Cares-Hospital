@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Oswald&display=swap');
+   nav{
+       position: relative;
+       /* top: 40px;   */
+     }
+   nav>ul{
+    padding-right: 30px;
+    background-color: #5BC0DE;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+nav>ul>li>a{
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+  
+}
+
+
+
+
+#topic{
+    
+    background-image: url(./images/services.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+#topic>h1{
+           font-size: 72px;
+           text-align: center;
+           color:#5BC0DE;
+           position: relative;
+           top: 21%;
+           font-family: 'Merriweather', serif; 
+}
+#services{display: flex;
+     flex-direction: column;
+     background-color: white;
+    margin-top: 5%;
+     width: 100%;
+     justify-content: space-between;
+}
+#services>.column{display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          margin: 5px;
+          height: 50%; 
+          
+                
+}
+#services>.column>div{
+            margin: 5px;
+            background-color: white;
+            width: 250px;
+            height: 300px;
+            padding-bottom: 10px;
+            text-align: center;
+            border-radius: 1%;
+            box-shadow: 1px 1px 5px black; 
+}
+#services>div>div>img{ width: 250px;
+                  height: 50%;                 
+}
+h2{
+    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    color: #5BC0DE;;
+}
+#services>div>div:hover{ box-shadow: 0px 0px 20px black; }
+
+#icons>a{
+    text-transform: uppercase;
+    color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#icons{
+    background-color: #5BC0DE;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    overflow-x: hidden;
+  }
+  
