@@ -5,23 +5,27 @@ nav{
      background-color:#5BC0DE;
    
    }
-nav>ul{
+   nav>ul{
      padding-right: 30px;
      /* background-color:#5BC0DE; */
-     height:80px;
+     height:40px;
      display: flex;
      justify-content: center;
-}
-nav>ul>li{
+   }
+   nav>ul>li{
      display: flex;
      justify-content: center;        
-}
-nav>ul>li>a{
+   }
+   nav>ul>li>a{
      text-transform: uppercase;
      color: black;
      padding: 20px;
      text-align: center;
-}
+     text-decoration: none;
+   }
+   nav>ul>li>a:hover{
+     color:rgb(125, 125, 197);
+ }
 #icons>a{
      text-transform: uppercase;
      color: black;

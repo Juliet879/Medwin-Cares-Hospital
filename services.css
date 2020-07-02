@@ -5,7 +5,7 @@ nav{
     margin-right: 0%;
     margin: 0 auto;
     background-color:#5BC0DE;
-  
+    width: 100%;
   }
   nav>ul{
     padding-right: 30px;
@@ -23,11 +23,11 @@ nav{
     color: black;
     padding: 20px;
     text-align: center;
+    text-decoration: none;
   }
-
-
-
-
+  nav>ul>li>a:hover{
+    color:rgb(125, 125, 197);
+}
 #topic{
     
     background-image: url(./images/services.jpg);
@@ -101,4 +101,7 @@ nav{
 body{
     overflow-x: hidden;
   }
-  
+  .header{
+    display: flex;
+    flex-direction: column;
+}

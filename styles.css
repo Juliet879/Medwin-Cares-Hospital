@@ -24,6 +24,7 @@ nav>ul>li>a{
   color: black;
   padding: 20px;
   text-align: center;
+  text-decoration: none;
 }
 .img1,
 .img2,
