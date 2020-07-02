@@ -1,54 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+nav{
+  padding: 3px 0;
+  margin-right: 0%;
+  margin: 0 auto;
+  background-color:#5BC0DE;
+
+}
 nav>ul{
-     padding-right: 30px;
-     background-color:#5BC0DE;
-     height:80px;
-     display: flex;
-     justify-content: center;
+  padding-right: 30px;
+  /* background-color:#5BC0DE; */
+  height:40px;
+  display: flex;
+  justify-content: center;
 }
 nav>ul>li{
-     display: flex;
-     justify-content: center;        
+  display: flex;
+  justify-content: center;        
 }
 nav>ul>li>a{
-     text-transform: uppercase;
-     color: black;
-     padding: 20px;
-     text-align: center;
+  text-transform: uppercase;
+  color: black;
+  padding: 20px;
+  text-align: center;
 }
+.img1,
+.img2,
+.img3 {
+  height: 100vh;
+}
+
+.home2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(Images/image7.jpeg) center/ cover no-repeat fixed;
+  height: 60vh;
+}
+
 #icons>a{
-     text-transform: uppercase;
-     color: black;
-     padding-right: 20px;
-     text-align: center;
-     align-items: center;
+  text-transform: uppercase;
+  color: black;
+  padding-right: 20px;
+  text-align: center;
+  align-items: center;
 }
 #icons{
-     background-color:#5BC0DE;
-     padding-right: 40px;
-     justify-content: center;
-     text-align: center;
+  background-color:#5BC0DE;
+  padding-right: 40px;
+  justify-content: center;
+  text-align: center;
 }
-.form{
-     background-attachment: fixed;
-     background-blend-mode: lighten;
-     background-image: url();
-     background-color: antiquewhite;
-     width: 700px;
-     height: 600px;
+h1 {
+  font-family: "Merriweather", serif;
 }
-#forms{
-     display: flex;
-     justify-content: space-around;
+h5 {
+  font-family: "Oswald", sans-serif;
 }
-#center{
-     display: flex;
-     text-align: center;
-     justify-content: center;
+.card {
+  background-color: #5bc0de;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
-h1,h3,p{
-     text-align: center;
+.card:hover {
+  background-color: white;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(10deg);
+}
+.card-body {
+  background-color: #5bc0de;
+}
+.card-body:hover {
+  background-color: white;
+}
+.h3-reponsive {
+  font-family: "Merriweather", serif;
+  
 }
 body{
-     overflow-x: hidden;
-   }
-   
+  overflow-x: hidden;
+}

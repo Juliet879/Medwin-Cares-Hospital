@@ -5,12 +5,10 @@
     background-color:#5BC0DE;
     display: flex;
     width: 100%;
-}
-#contact{
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    flex-direction: row;
 }
+
 p{
     font-size: 20px;
     text-align: center;
@@ -45,7 +43,7 @@ h5{
     background-color: #4553a0;
   }
   
-  /* Style the container/contact section */
+  /* Style the container/contact section  */
   /* .container {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -54,48 +52,66 @@ h5{
    */
   /* Create two columns that float next to eachother */
   .column {
-    float: left;
+    float: right;
     width: 40%;
     margin-top: 6px;
     padding: 20px;
   }
-  
+   
   /* Clear floats after the columns */
   .row:after {
-    content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
     #frame{
         display: flex;
-        /* float: right; */
-        /* position: relative;
-        right: 50%; */
         margin-top: 50px;
-        /* width: 200px; */
-        justify-content: space-around;
+       justify-content: space-around;
         margin: 10px;
+        padding-top: 10%;
     }
-    #Quick contacts{
+     #Quick-contacts{
         text-align: center;
         font-size: 30px;
-    }
+        padding: 7%;
+        padding-left:120px;
+    } 
     img{
         width: 100%;
     }
-     /* .logo{
-      width: 150px;
-      height: auto;
-      float: right;
-    }  */
+     
     body{
       overflow-x: hidden;
     }
   
+    nav>ul{
+      padding-right: 30px;
+      background-color:#5BC0DE;
+      height:80px;
+      display: flex;
+      justify-content: center;
+ }
+ nav>ul>li{
+      display: flex;
+      justify-content: center;        
+ }
+ nav>ul>li>a{
+      text-transform: uppercase;
+      color: black;
+      padding: 20px;
+      text-align: center;
+ }
+ #icons>a{
+      text-transform: uppercase;
+      color: black;
+      padding-right: 20px;
+      text-align: center;
+      align-items: center;
+ }
+ #icons{
+      background-color:#5BC0DE;
+      padding-right: 40px;
+      justify-content: center;
+      text-align: center;
+ }
